@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Asus\IdeaProjects\library_three\target\library_three-1.0-SNAPSHOT.jar</jar>
+  <outfile>C:\Users\Asus\IdeaProjects\library_three\target\original-library_three-1.0-SNAPSHOT.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\Asus\Downloads\favicon.ico</icon>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>17.0.0</minVersion>
+    <maxVersion></maxVersion>
+    <opt>--module-path C:\Dev\Java_dev\javafx-sdk-17.0.13\lib --add-modules javafx.controls,javafx.fxml</opt>
+  </jre>
+</launch4jConfig>
